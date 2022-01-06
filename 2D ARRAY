@@ -1,0 +1,41 @@
+package arrays_single_double_multiple_Dim;
+
+public class TWO_D_ARRAYS {
+	
+	public static void main(String[] args) {
+		//Screens that we are watching are A 2D arrays of pixels and they make light up different colors..that make videos accordingly 
+		//First you finish the rows and tackle columns //(Declare, instantiate) 
+		//First syntax 
+		//Second syntax you declare, instantiate, initialize 
+		//int StudentID [][] = { {10, 15, 26, 90},
+		///instantiate here//BELOW ARRAY HAS 3 ROWS AND 4 COLOUMS
+		int StudentID [][] = new int [3][4]; 
+		//Second method
+		//Always assign values do it from right to left for example if you have a list of 123 do you one for 0 row 0 for column 0 for row 00-01
+		//First [0] ROW IS SECOND ONE is column 
+		StudentID[0][0] = 10;StudentID[0][1] = 14; StudentID[0][2] = 15; StudentID[0][3] = 58;
+		StudentID[1][0] = 50;StudentID[1][1] = 30; StudentID[1][2] = 62; StudentID[1][3] = 19;
+		StudentID[2][0] = 46;StudentID[2][1] = 30; StudentID[2][1] = 30;StudentID[2][3] = 43; StudentID[2][3] = 16;
+		//FOR loop is super useful, it loops thru each index starts from R-ZERO then goes to R-ONE then R-2
+		//And finally read index TWO and increments = In order to print everything just use for loop on for R and one for C
+		//Increment Operator (++) is used to increase the value of variable by 1 in Java program. 
+		//In for loop you don't need any curly braces...
+		for ( int i = 0; i < StudentID.length; i++)
+		//HERE you are creating a connection of ROW/COLUM by calling if one you second for loop.
+		for (int z = 0; z < StudentID[i].length; z++) {
+		
+			System.out.println(StudentID[i][z]); {
+		
+		System.out.println("------------------------------------");
+		System.out.println(StudentID[0][1]);
+		
+		//Like below 10 is on row ZERO coloum ZERO 14 is in row colom 1 - 15 is in row ZERO colunm 2 
+		//And it is a simple way 
+		int BookID [][] = { {10, 14, 15, 58}, 
+							{50, 30, 62, 19}, 
+							{46, 30, 43, 16}};
+						
+		//System.out.println(BookID[2][3]);	
+	}
+
+}}}
